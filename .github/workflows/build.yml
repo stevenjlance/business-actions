@@ -40,4 +40,4 @@ jobs:
       - name: Deploy
         run: railway up
         env:
-          ACTIONS_DEPLOY: ${{ secrets.ACTIONS_DEPLOY }}
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
